@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title> acount </title>
+    <link rel="stylesheet" type="text/css" href="style.css">   
+    <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #123;
+  }
+  input[type=text] {
+      width: 130px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: white;
+      background-image: url('Magnifier-512');
+      background-position: 10px 10px; 
+      background-repeat: no-repeat;
+      padding: 12px 20px 12px 40px;
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+}
+</style>
+</head>
+<body>
+  <ul>    
+<li> DA HYPE</li>
+  <li><a href="yamsaynpt2.html">Home</a></li>
+  <li><a href="sells.html">Sells</a></li>
+  <li><a href= "contactpt2.php">contact</a></li>
+  <li><a href="aboutpt3.html">About</a></li>
+  <li><a href="chart.html">chart</a></li>
+  <li><a href="acount.php">acount</a></li>
+</ul>
+<style>
+  li{color: red ;}
+  li{font-size: 190%}
+</style>
+    <div class="login-box">
+        <h1>Login Here</h1>
+            <form method="post" action="connect.php">
+            <input type="type" name="username"><br><br>
+            <input type="password" name="password"><br><br>
+            <input type="submit" name="submit">
+            <a href="#">Forget Password</a>    
+            </form>
+
+        
+        </div>
+ 
+
+
+    </body>
+</html>
